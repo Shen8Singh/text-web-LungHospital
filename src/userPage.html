@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DashBoard-Lung Hospital</title>
+    <link rel="stylesheet" href="/src/style/userPageStyle.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+    <style>
+
+.bg-custom {
+  background-color: rgb(37, 42, 189) !important;
+}
+/* Custom CSS */
+.btn-contact {
+color: rgb(255, 255, 255); /* Light blue text color */
+background-color:transparent; /* White background color */
+width: 150px;
+height: 40px;
+border-radius: 20px;
+border: 1px solid rgb(33, 164, 208);
+}
+.btn-contact:hover {
+color: rgb(243, 243, 243); /* White text color on hover */
+background-color: rgb(20, 131, 200); /* Light blue background color on hover */
+}
+/*  */
+/* Custom CSS */
+.bg-dark-blue {
+  background-color: #1e79d5; /* Dark blue background color */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  
+}
+.bg-dark-green {
+  background-color: #8d42d4; /* Dark green background color */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.nav-link {
+  color: white; /* White text color */
+}
+.nav-link:hover {
+  color: #00080f; /* Light gray text color on hover */
+}
+     
+    </style>
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-custom" id="home" >
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#" style="color: aliceblue; "> <b>Lung Hospital</b></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <!-- <a class="nav-link" href="#">About</a> -->
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/src/appointment.html">Appointment</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#gallery">Gallery</a>
+              </li>
+            </ul>
+          </div>
+          <button class="btn btn-contact btn-outline-success" type="submit" ><a href="#contact" style="color: rgb(255, 255, 255); text-decoration: none;">Contact</a></button>
+        </div>
+    </nav>
+    <nav class="navbar navbar-expand-lg" >
+        <div class="container-fluid">
+            <!-- Left side (dark blue) -->
+            <div class="navbar-nav flex-grow-1 bg-dark-blue">
+                <a class="nav-link" href="/src/test.html">Test</a>
+            </div>
+            <!-- Right side (dark green) -->
+            <div class="navbar-nav flex-grow-1 bg-dark-green">
+                <a class="nav-link" href="/src/history.html">History</a>
+            </div>
+        </div>
+    </nav>
+    <section class="hero-section d-flex align-items-center">
+        <div>
+            
+        </div>
+      </section>
+
+      <section class="body2">
+        <section id="intro">
+            <div class="info">
+            <h1>Save Lung</h1>
+            <p>
+                Lungs are vital organs essential for our breathing and overall well-being. To ensure healthy lungs for ourselves and future generations, let's prioritize actions that reduce air pollution, avoid smoking and secondhand smoke exposure, engage in regular physical activity, and maintain a balanced diet rich in fruits and vegetables. By taking care of our lungs, we safeguard our health and contribute to a cleaner, healthier environment for all.
+              </p>
+              <a href="#content" class="button explore">Explore</a>
+            </div>
+            <div class="split-beer">
+              <img
+                class="beer"
+                src="https://previews.123rf.com/images/svetazi/svetazi1905/svetazi190500005/126647640-image-of-a-doctor-in-a-white-coat-and-lungs-above-his-hands-concept-of-healthy-lungs.jpg" />
+              
+            </div>
+          </section>
+      
+          <section id="content">
+            <!-- Cards -->
+            <div class="card">
+              <img class="card-img" src="https://static.toiimg.com/thumb/91918437.cms?width=680&height=512&imgsize=40058" />
+              <div class="title">
+                <h2>Promote Anti-Smoking Campaigns</h2>
+              </div>
+              <div class="more">
+                <button class="modal-open" data-modal="modal1">
+                  more<ion-icon
+                    class="open-icon"
+                    name="open-outline"
+                    aria-hidden="true"></ion-icon>
+                </button>
+              </div>
+            </div>
+      
+            <div class="card">
+              <img class="card-img" src="https://nationaltoday.com/wp-content/uploads/2020/10/Healthy-Lung-1-1-1200x834.jpg" />
+              <div class="title">
+                <h2>Advocate for Clean Air</h2>
+              </div>
+              <div class="more">
+                <button class="modal-open" data-modal="modal2">
+                  more<ion-icon
+                    class="open-icon"
+                    name="open-outline"
+                    aria-hidden="true"></ion-icon>
+                </button>
+              </div>
+            </div>
+      
+            <div class="card">
+              <img class="card-img" src="https://assets.technologynetworks.com/production/dynamic/images/content/353681/plant-virus-could-be-exploited-to-save-the-lungs-from-metastatic-cancer-353681-1280x720.webp?cb=11416903" />
+              <div class="title">
+                <h2>Encourage Regular Exercise</h2>
+              </div>
+              <div class="more">
+                <button class="modal-open" data-modal="modal3">
+                  more<ion-icon
+                    class="open-icon"
+                    name="open-outline"
+                    aria-hidden="true"></ion-icon>
+                </button>
+              </div>
+            </div>
+      
+            <div class="card">
+              <img class="card-img" src="https://www.nidirect.gov.uk/sites/default/files/styles/nigov_full_1240_x2/public/images/news/lung-xray.jpg?itok=q9ezJANH" />
+              <div class="title">
+                <h2>Raise Awareness of Lung Diseases</h2>
+              </div>
+              <div class="more">
+                <button class="modal-open" data-modal="modal4">
+                  more<ion-icon
+                    class="open-icon"
+                    name="open-outline"
+                    aria-hidden="true"></ion-icon>
+                </button>
+              </div>
+            </div>
+      
+            <div class="card">
+              <img class="card-img" src="https://www.boehringer-ingelheim.com/at/en/sites/default/files/styles/bi_gds_large/public/2022-09/lib_org_D3pZd677.jpg_0.jpg?itok=p_K6xMu7" />
+              <div class="title">
+                <h2>Provide Access to Healthcare</h2>
+              </div>
+              <div class="more">
+                <button class="modal-open" data-modal="modal5">
+                  more<ion-icon
+                    class="open-icon"
+                    name="open-outline"
+                    aria-hidden="true"></ion-icon>
+                </button>
+              </div>
+            </div>
+      
+            <div class="card">
+              <img class="card-img" src="https://media.istockphoto.com/id/1397369862/photo/unrecognizable-female-doctor-holding-graphic-virtual-visualization-model-of-lungs-organ-in.jpg?s=612x612&w=0&k=20&c=8kUDCB2yAEP76JzEfxa50jnj5ZJAoWdWZtePUPzZqTI=" />
+              <div class="title">
+                <h2>Support Research and Innovation</h2>
+              </div>
+              <div class="more">
+                <button class="modal-open" data-modal="modal6">
+                  more<ion-icon
+                    class="open-icon"
+                    name="open-outline"
+                    aria-hidden="true"></ion-icon>
+                </button>
+              </div>
+            </div>
+      
+            <!-- Modals -->
+            <div class="modal" id="modal1">
+              <div class="modal-content">
+                <div class="modal-header">
+                    Promote Anti-Smoking Campaigns<button class="modal-close">
+                    <ion-icon class="close-icon" name="close-outline">Close</ion-icon>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <img src="https://static.toiimg.com/thumb/91918437.cms?width=680&height=512&imgsize=40058" alt="" />
+                  <ul>
+                    <li>
+                    Raise awareness: smoking harms lungs, quit for better health, target vulnerable groups.
+                    </li>
+                    <li>
+                        Highlight dangers: smoking causes lung damage. Encourage quitting, especially among vulnerable demographics.
+                    </li>
+                    <li>
+                        Raise awareness, promote quitting, target vulnerable groups for impact.
+                    </li>
+                  </ul>
+                </div>
+                <div class="modal-footer">
+                  <button class="button close-btn modal-close">Close</button>
+                </div>
+              </div>
+            </div>
+      
+            <div class="modal" id="modal2">
+              <div class="modal-content">
+                <div class="modal-header">
+                    Advocate for Clean Air<button class="modal-close">
+                    <ion-icon class="close-icon" name="close-outline">Close</ion-icon>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <img src="https://nationaltoday.com/wp-content/uploads/2020/10/Healthy-Lung-1-1-1200x834.jpg" alt="" />
+                  <ul>
+                    <li>
+                        Support policies to reduce pollution, promote clean transport, transition to renewable energy for healthier air.
+                    </li>
+                    <li>
+                        Back policies cutting pollution, promote cleaner transport, shift to renewables for cleaner air.
+                    </li>
+                  </ul>
+                </div>
+                <div class="modal-footer">
+                  <button class="button close-btn modal-close">Close</button>
+                </div>
+              </div>
+            </div>
+      
+            <div class="modal" id="modal3">
+              <div class="modal-content">
+                <div class="modal-header">
+                    Encourage Regular Exercise<button class="modal-close">
+                    <ion-icon class="close-icon" name="close-outline">Close</ion-icon>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <img src="https://assets.technologynetworks.com/production/dynamic/images/content/353681/plant-virus-could-be-exploited-to-save-the-lungs-from-metastatic-cancer-353681-1280x720.webp?cb=11416903" alt="" />
+                  <ul>
+                    <li>
+                        Encourage exercise: boosts lung function, strengthens respiratory muscles, and maintains overall lung health for better respiratory function.
+                    </li>
+                    <li>
+                        Promote exercise: enhances lung function, strengthens muscles, ensuring better overall respiratory health and lung function.
+                    </li>
+                  </ul>
+                </div>
+                <div class="modal-footer">
+                  <button class="button close-btn modal-close">Close</button>
+                </div>
+              </div>
+            </div>
+      
+            <div class="modal" id="modal4">
+              <div class="modal-content">
+                <div class="modal-header">
+                    Raise Awareness of Lung Diseases<button class="modal-close">
+                    <ion-icon class="close-icon" name="close-outline">Close</ion-icon>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <img src="https://www.nidirect.gov.uk/sites/default/files/styles/nigov_full_1240_x2/public/images/news/lung-xray.jpg?itok=q9ezJANH" alt="" />
+                  <ul>
+                    <li>
+                        Inform about lung diseases: asthma, COPD, lung cancer causes, symptoms, prevention methods for public awareness.
+                    </li>
+                    <li>
+                        Raise awareness: inform about asthma, COPD, lung cancer causes, symptoms, prevention to educate the public on lung health.
+                    </li>
+                  </ul>
+                </div>
+                <div class="modal-footer">
+                  <button class="button close-btn modal-close">Close</button>
+                </div>
+              </div>
+            </div>
+      
+            <div class="modal" id="modal5">
+              <div class="modal-content">
+                <div class="modal-header">
+                    Provide Access to Healthcare<button class="modal-close">
+                    <ion-icon class="close-icon" name="close-outline">Close</ion-icon>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <img src="https://www.boehringer-ingelheim.com/at/en/sites/default/files/styles/bi_gds_large/public/2022-09/lib_org_D3pZd677.jpg_0.jpg?itok=p_K6xMu7" alt="" />
+                  <ul>
+                    <li>
+                        Advocate for healthcare access: Ensure screenings, vaccinations, treatments for lung diseases, prioritizing underserved communities to address healthcare disparities and promote lung health equity.
+                    </li>
+                    <li>
+                        Emphasize access: Screenings, vaccinations, treatments ensure equitable care, especially in underserved communities, combating lung disease disparities.                    </li>
+                  </ul>
+                </div>
+                <div class="modal-footer">
+                  <button class="button close-btn modal-close">Close</button>
+                </div>
+              </div>
+            </div>
+      
+            <div class="modal" id="modal6">
+              <div class="modal-content">
+                <div class="modal-header">
+                    Support Research and Innovation<button class="modal-close">
+                    <ion-icon class="close-icon" name="close-outline">Close</ion-icon>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <img src="https://media.istockphoto.com/id/1397369862/photo/unrecognizable-female-doctor-holding-graphic-virtual-visualization-model-of-lungs-organ-in.jpg?s=612x612&w=0&k=20&c=8kUDCB2yAEP76JzEfxa50jnj5ZJAoWdWZtePUPzZqTI=" alt="" />
+                  <ul>
+                    <li>
+                        Invest in lung disease research: Develop new treatments, technologies for better prevention, management.                    </li>
+                    <li>
+                        Promote innovation: Invest in research for advanced treatments, technologies to improve prevention, diagnosis, and management of lung diseases. </li>                   </li>
+                  </ul>
+                </div>
+                <div class="modal-footer">
+                  <button class="button close-btn modal-close">Close</button>
+                </div>
+              </div>
+            </div>
+          </section>
+      
+          <footer>
+            <p>
+                Join us in preserving lung health! Don't miss the chance to enjoy Oktoberfest, filled with wholesome fun, great food, and camaraderie."
+            </p>
+          </footer>
+      </section>
+
+      <section class="gallery" id="gallery">
+
+        
+
+      </section>
+
+     <!--  -->
+      <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
+        <div class="container" data-aos="fade-up">
+  
+            <div class="section-title" style="text-align: center;">
+                <h2>Contact</h2>
+                <p>At Lung Hospital, we're dedicated to serving you. Whether you have medical inquiries, ideas for collaboration, or simply wish to get in touch, your questions are important to us. Feel free to reach out using the contact details provided below, and let's begin a dialogue. We eagerly await your communication.</p>
+            </div>
+            
+  
+          <div class="row" data-aos="fade-up" data-aos-delay="100">
+  
+            <div class="col-lg-6">
+  
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="info-box">
+                    <h3>Our Address</h3>
+                    <p>A108 Colombo-7, Sri Lanka, SL 547022</p>
+                    <a href="https://maps.google.com?q=A108+Colombo-7,+Sri+Lanka,+SL+547022" target="_blank" style="color: rgb(4,9,150); text-decoration: none;">Open Map</a>
+  
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="info-box mt-4">
+                    <h3>Email Us</h3>
+                    <a href="mailto:demo.text@gmail.com" style="color: rgb(4,9,150); text-decoration: none;"><b>demo.text@gmail.com</b></a><br>
+
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="info-box mt-4">
+                    <h3>Call Us</h3>
+                    <a href="tel:+9488877766" style="color: rgb(4,9,150); text-decoration: none;"><b>+94 88877766</b></a><br>
+                </div>
+                </div>
+              </div>
+  
+            </div>
+  
+            <div class="col-lg-6">
+              <form action="" method="post" role="form" class="php-email-form">
+                <div class="row">
+                  <div class="col form-group">
+                    <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+                  </div>
+                  <div class="col form-group">
+                    <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+                </div>
+                <div class="form-group">
+                  <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+                </div>
+                <div class="my-3">
+                  <div class="loading">Loading</div>
+                  <div class="error-message"></div>
+                  <div class="sent-message">Your message has been sent. Thank you!</div>
+                </div>
+                <div class="text-center"><button type="submit">Send Message</button></div>
+              </form>
+            </div>
+  
+          </div>
+  
+        </div>
+      </section><!-- End Contact Section -->
+  
+    </main><!-- End #main -->
+  
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+  
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+  
+          <div class="col-lg-3 col-md-6 footer-contact">
+            <h3>Lung Hospital<span>.</span></h3>
+            <p>
+              517 Main Street <br>
+              Colombo-07<br>
+              Sri Lanka. <br><br>
+              <strong>Phone:</strong> <a href="tel:+9488877766"style="color: rgb(4, 9, 150);"><b>+94 88877766</b></a><br>
+              <strong>Email:</strong> <a href="mailto:demo.text@gmail.com" style="color: rgb(4, 9, 150);"><b>demo.text@gmail.com</b></a><br>
+  
+            </p>
+          </div>
+  
+          <div class="col-lg-2 col-md-6 footer-links">
+            <h4>Quick Links</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="#hero">Home</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#about">About</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="garrery.html">Gallery</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+  
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Our Services</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Pulmonary Function Testing</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Respiratory Therapy</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Thoracic Surgery</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Sleep Medicine</a></li>
+            </ul>
+          </div>
+  
+          <div class="col-lg-4 col-md-6 footer-newsletter">
+            <h4>Subscribe to Our Newsletter</h4>
+            <p>Stay updated with our latest news and promotions.</p>
+            <form action="" method="post">
+              <input type="email" name="email" placeholder="Enter your email"><input type="submit" value="Subscribe">
+            </form>
+          </div>
+  
+        </div>
+      </div>
+    </div>
+  
+    <div class="container d-md-flex py-4">
+  
+      <div class="me-md-auto text-center text-md-start">
+        <div class="copyright">
+          &copy; 2024 Lung. All Rights Reserved
+        </div>
+        <div class="credits">
+          Developed by <a href="https://github.com/RachinduAbeysekara" target="_blank" style="color: rgb(4, 9, 150,);"><b>Rachindu</b></a>
+        </div>
+      </div>
+     
+    </div>
+  </footer><!-- End Footer -->
+
+      
+      <script>
+        const modalOpenBtns = document.querySelectorAll(".modal-open");
+const modalCloseBtns = document.querySelectorAll(".modal-close");
+const body = document.querySelector("body");
+
+modalOpenBtns.forEach((btn) => {
+  btn.addEventListener("click", () => {
+    let modal = btn.getAttribute("data-modal");
+    document.getElementById(modal).style.display = "block";
+    body.classList.add("prevent-background-scroll");
+  });
+});
+
+modalCloseBtns.forEach((btn) => {
+  btn.addEventListener("click", () => {
+    let modal = (btn.closest(".modal").style.display = "none");
+    body.classList.remove("prevent-background-scroll");
+  });
+});
+
+document.addEventListener("click", (e) => {
+  if (e.target.classList.contains("modal")) {
+    e.target.style.display = "none";
+    body.classList.remove("prevent-background-scroll");
+  }
+});
+
+      </script>
+</body>
+</html>
